@@ -1,0 +1,12 @@
+/* ==========================================================
+   REVERSE TEXT — Tool Page Styles
+   ========================================================== */
+
+/* Tool-Specific Styles */
+
+.tool-area__input,
+.tool-area__output {
+    margin-bottom: 32px;
+}
+
+/* Responsive */

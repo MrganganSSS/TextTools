@@ -1,0 +1,31 @@
+/* ==========================================================
+   REPLACE MULTIPLE WORDS — Tool Page Styles
+   ========================================================== */
+
+/* Tool-Specific Styles */
+
+.tool-area__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    align-items: start;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .tool-area__grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+}
+
+/* Settings Row */
+.tool-area__settings {
+    margin-bottom: 16px;
+}
+
+.tool-area__textarea--small {
+    min-height: 100px;
+    font-size: 0.9rem;
+}

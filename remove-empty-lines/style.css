@@ -1,0 +1,22 @@
+/* ==========================================================
+   REMOVE EMPTY LINES — Tool Page Styles
+   ========================================================== */
+
+/* Tool-Specific Styles */
+
+.tool-area__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    align-items: start;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .tool-area__grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+}
+

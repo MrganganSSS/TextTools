@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>Uppercase Converter - Free Online Text Conversion Tool | TextTools</title>
+    <meta name="description" content="Convert text to uppercase instantly with our free online uppercase converter tool.">
+    <meta name="keywords" content="uppercase converter, convert to uppercase, text to uppercase, case converter, free tool">
+    <meta name="author" content="TextTools">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.texttools.com/uppercase-converter/">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Uppercase Converter - Free Online Text Tool | TextTools">
+    <meta property="og:description" content="Free online uppercase converter tool. Paste your text and instantly convert it to uppercase.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.texttools.com/uppercase-converter/">
+    <meta property="og:image" content="https://www.texttools.com/og-image.png">
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Uppercase Converter - Free Online Text Tool | TextTools">
+    <meta name="twitter:description" content="Free online uppercase converter tool. Paste your text and instantly convert it to uppercase.">
+    <meta name="twitter:image" content="https://www.texttools.com/twitter-image.png">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="style.css">
+        <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Uppercase Converter",
+    "description": "Convert text to uppercase instantly with our free online uppercase converter tool.",
+    "url": "https://www.texttools.com/uppercase-converter/",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "All",
+    "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+    }
+}
+        </script>
+    </head>
+<body>
+
+    <!-- ==================== HEADER ==================== -->
+    <header class="header" id="header">
+        <nav class="nav container" aria-label="Main navigation">
+            <a href="../index.html" class="nav__logo">Text<span class="nav__logo--accent">Tools</span></a>
+
+            <ul class="nav__menu" id="nav-menu" role="menubar">
+                <li class="nav__item" role="none">
+                    <a href="../index.html" class="nav__link" role="menuitem">Home</a>
+                </li>
+                <li class="nav__item" role="none">
+                    <a href="../tools_display.html" class="nav__link nav__link--active" role="menuitem">Text Tools</a>
+                </li>
+                <li class="nav__item" role="none">
+                    <a href="../index.html#about" class="nav__link" role="menuitem">About</a>
+                </li>
+                <li class="nav__item" role="none">
+                    <a href="../index.html#footer" class="nav__link" role="menuitem">Contact</a>
+                </li>
+                <li class="nav__item" role="none">
+                    <a href="../privacy-policy/index.html" class="nav__link" role="menuitem">Privacy Policy</a>
+                </li>
+                <li class="nav__item" role="none">
+                    <a href="../terms-of-service/index.html" class="nav__link" role="menuitem">Terms of Service</a>
+                </li>
+            </ul>
+
+            <a href="../tools_display.html" class="btn btn--primary nav__cta">Explore Tools</a>
+
+            <button
+                class="nav__hamburger"
+                id="nav-hamburger"
+                aria-label="Toggle navigation menu"
+                aria-expanded="false"
+                aria-controls="nav-menu"
+            >
+                <span class="nav__hamburger-line"></span>
+                <span class="nav__hamburger-line"></span>
+                <span class="nav__hamburger-line"></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- ==================== MAIN CONTENT ==================== -->
+    <main>
+
+        <!-- ==================== TOOL HERO ==================== -->
+        <section class="tool-hero">
+            <div class="container">
+                <nav class="breadcrumb" aria-label="Breadcrumb">
+                                    <a href="../index.html" class="breadcrumb__link">Home</a>
+                                    <span class="breadcrumb__sep">/</span>
+                                    <a href="../tools_display.html" class="breadcrumb__link">Text Tools</a>
+                                    <span class="breadcrumb__sep">/</span>
+                                    <span class="breadcrumb__current" aria-current="page">Uppercase Converter</span>
+                                </nav>
+                <a href="../tools_display.html" class="tool-hero__back">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                    All Tools
+                </a>
+                <h1 class="tool-hero__title">Uppercase Converter</h1>
+                <p class="tool-hero__desc">Paste your text below and instantly convert it to uppercase.</p>
+            </div>
+        </section>
+
+        <!-- ==================== TOOL AREA ==================== -->
+        <section class="tool-area">
+            <div class="container">
+
+                <div class="tool-area__input">
+                    <label for="text-input" class="tool-area__label">Your Text</label>
+                    <textarea
+                        id="text-input"
+                        class="tool-area__textarea"
+                        placeholder="Paste or type your text here..."
+                        aria-label="Text input for uppercase conversion"
+                        rows="12"
+                    ></textarea>
+                    <div class="tool-area__actions">
+                        <button class="btn btn--primary" id="convert-btn" type="button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <polyline points="17 1 21 5 17 9"></polyline>
+                                <path d="M3 11V9a4 4 0 0 1 4-4h14"></path>
+                            </svg>
+                            Convert to Uppercase
+                        </button>
+                        <button class="btn btn--outline" id="clear-btn" type="button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <line x1="18" y1="6" x2="6" y2="18"></line>
+                                <line x1="6" y1="6" x2="18" y2="18"></line>
+                            </svg>
+                            Clear
+                        </button>
+                    </div>
+                </div>
+
+                <div class="tool-area__output">
+                    <label for="text-output" class="tool-area__label">Uppercase Output</label>
+                    <textarea
+                        id="text-output"
+                        class="tool-area__textarea tool-area__textarea--output"
+                        placeholder="Uppercase text will appear here..."
+                        aria-label="Uppercase text output"
+                        rows="12"
+                        readonly
+                    ></textarea>
+                    <div class="tool-area__actions">
+                        <button class="btn btn--outline" id="copy-btn" type="button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                            </svg>
+                            Copy Output
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="tool-intro">
+
+            <div class="container">
+                <div class="tool-intro__content fade-in">
+                    <h2 class="tool-intro__title">About This Tool</h2>
+                    <p class="tool-intro__text">Our Uppercase Converter transforms any text to ALL UPPERCASE with a single click. Perfect for headings, emphasis, or meeting formatting requirements. Paste your text and convert it instantly.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="tool-features">
+            <div class="container">
+                <div class="tool-features__grid">
+                    <div class="tool-features__card fade-in">
+                        <div class="tool-features__icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div>
+                        <div class="tool-features__card-title">One-Click Convert</div>
+                        <p class="tool-features__card-desc">Transform your text to uppercase instantly.</p>
+                    </div>
+<div class="tool-features__card fade-in">
+                        <div class="tool-features__icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div>
+                        <div class="tool-features__card-title">Preserves Formatting</div>
+                        <p class="tool-features__card-desc">Line breaks and spacing are maintained during conversion.</p>
+                    </div>
+<div class="tool-features__card fade-in">
+                        <div class="tool-features__icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div>
+                        <div class="tool-features__card-title">Fully Private</div>
+                        <p class="tool-features__card-desc">All processing happens in your browser. Nothing is uploaded.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="tool-how-to">
+            <div class="container">
+                <h2 class="tool-how-to__title">How to Use</h2>
+                <div class="tool-how-to__steps">
+                    <div class="tool-how-to__step fade-in">
+                        <div class="tool-how-to__step-num">1</div>
+                        <div class="tool-how-to__step-text">Paste or type your text into the input area above.</div>
+                    </div>
+<div class="tool-how-to__step fade-in">
+                        <div class="tool-how-to__step-num">2</div>
+                        <div class="tool-how-to__step-text">Click <strong>Convert</strong> to change all text to uppercase.</div>
+                    </div>
+<div class="tool-how-to__step fade-in">
+                        <div class="tool-how-to__step-num">3</div>
+                        <div class="tool-how-to__step-text">Use <strong>Copy to Clipboard</strong> to grab the result, or <strong>Clear</strong> to start over.</div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="tool-use-cases">
+            <div class="container">
+                <h2 class="tool-use-cases__title">Use Cases</h2>
+                <div class="tool-use-cases__grid">
+                    <div class="tool-use-cases__item fade-in">
+                        <div class="tool-use-cases__icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg></div>
+                        <div class="tool-use-cases__text">Creating headings and titles</div>
+                    </div>
+<div class="tool-use-cases__item fade-in">
+                        <div class="tool-use-cases__icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg></div>
+                        <div class="tool-use-cases__text">Meeting formatting requirements</div>
+                    </div>
+<div class="tool-use-cases__item fade-in">
+                        <div class="tool-use-cases__icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg></div>
+                        <div class="tool-use-cases__text">Adding emphasis to text</div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="tool-faq">
+            <div class="container">
+                <h2 class="tool-faq__title">Frequently Asked Questions</h2>
+                <div class="tool-faq__list">
+                    <div class="tool-faq__item fade-in">
+                        <button class="tool-faq__question" type="button" aria-expanded="false">
+                            <span>Does it change special characters?</span>
+                            <span class="tool-faq__icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+                        </button>
+                        <div class="tool-faq__answer" role="region">
+                            <div class="tool-faq__answer-inner">No. Only alphabetic characters are converted. Numbers, symbols, and punctuation remain unchanged.</div>
+                        </div>
+                    </div>
+<div class="tool-faq__item fade-in">
+                        <button class="tool-faq__question" type="button" aria-expanded="false">
+                            <span>Does it preserve my original formatting?</span>
+                            <span class="tool-faq__icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+                        </button>
+                        <div class="tool-faq__answer" role="region">
+                            <div class="tool-faq__answer-inner">Yes. Line breaks, spaces, and indentation are preserved.</div>
+                        </div>
+                    </div>
+<div class="tool-faq__item fade-in">
+                        <button class="tool-faq__question" type="button" aria-expanded="false">
+                            <span>Is my text stored anywhere?</span>
+                            <span class="tool-faq__icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+                        </button>
+                        <div class="tool-faq__answer" role="region">
+                            <div class="tool-faq__answer-inner">No. Conversion happens entirely in your browser.</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="tool-related">
+            <div class="container">
+                <h2 class="tool-related__title">Related Tools</h2>
+                <div class="tool-related__grid">
+                    <div class="tool-related__card fade-in">
+                        <div class="tool-related__card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg></div>
+                        <div class="tool-related__card-title">Lowercase Converter</div>
+                        <p class="tool-related__card-desc">Convert text to lowercase instantly with our free online lowercase converter tool.</p>
+                        <a href="../lowercase-converter/" class="btn btn--outline">Try It</a>
+                    </div>
+<div class="tool-related__card fade-in">
+                        <div class="tool-related__card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg></div>
+                        <div class="tool-related__card-title">Capitalize Text</div>
+                        <p class="tool-related__card-desc">Capitalize the first letter of each sentence with our free online text capitalizer.</p>
+                        <a href="../capitalize-text/" class="btn btn--outline">Try It</a>
+                    </div>
+<div class="tool-related__card fade-in">
+                        <div class="tool-related__card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg></div>
+                        <div class="tool-related__card-title">Title Case Converter</div>
+                        <p class="tool-related__card-desc">Convert text to title case with our free online title case converter tool.</p>
+                        <a href="../title-case-converter/" class="btn btn--outline">Try It</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="tool-tips">
+            <div class="container">
+                <h2 class="tool-tips__title">Tips & Best Practices</h2>
+                <div class="tool-tips__list">
+                    <div class="tool-tips__item fade-in">
+                        <div class="tool-tips__item-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
+                        <div class="tool-tips__item-text"><strong>Tip:</strong> Use uppercase for headings and titles to make them stand out.</div>
+                    </div>
+<div class="tool-tips__item fade-in">
+                        <div class="tool-tips__item-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
+                        <div class="tool-tips__item-text"><strong>Pro:</strong> For sentence case conversion, try the Capitalize Text tool instead.</div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="tool-cta">
+            <div class="container">
+                <h2 class="tool-cta__title">Ready to Use the Uppercase Converter?</h2>
+                <p class="tool-cta__desc">It's fast, free, and works entirely in your browser. No sign-up required.</p>
+                <a href="#tool-area" class="btn--white">Try Uppercase Converter Now</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer" id="footer">
+        <div class="container footer__grid">
+
+            <div class="footer__brand">
+                <a href="../index.html" class="footer__logo">Text<span class="footer__logo--accent">Tools</span></a>
+                <p class="footer__brand-desc">Free online text tools for writers, students, developers, and content creators.</p>
+            </div>
+
+            <div class="footer__links">
+                <h4 class="footer__heading">Quick Links</h4>
+                <ul class="footer__list">
+                    <li><a href="../index.html" class="footer__link">Home</a></li>
+                    <li><a href="../tools_display.html" class="footer__link">Text Tools</a></li>
+                    <li><a href="../index.html#about" class="footer__link">About</a></li>
+                    <li><a href="../index.html#footer" class="footer__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__links">
+                <h4 class="footer__heading">Legal</h4>
+                <ul class="footer__list">
+                    <li><a href="../privacy-policy/index.html" class="footer__link">Privacy Policy</a></li>
+                    <li><a href="../terms-of-service/index.html" class="footer__link">Terms of Service</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer__bottom">
+            <p class="footer__copyright">&copy; 2026 TextTools. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- ==================== SCROLL TO TOP ==================== -->
+    <button
+        class="scroll-top"
+        id="scroll-top"
+        aria-label="Scroll to top"
+        title="Scroll to top"
+    >
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+
+    <!-- Scripts -->
+    <script src="../scripts/scripts.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
