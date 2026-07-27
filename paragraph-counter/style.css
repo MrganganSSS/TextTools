@@ -1,0 +1,86 @@
+/* ==========================================================
+   PARAGRAPH COUNTER — Tool Page Styles
+   ========================================================== */
+
+/* Tool-Specific Styles */
+
+.tool-area__input {
+    margin-bottom: 32px;
+}
+
+/* Output Section */
+.tool-area__output {
+    display: flex;
+    justify-content: center;
+}
+
+.result-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--color-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: 40px 64px;
+    text-align: center;
+    min-width: 200px;
+    transition: all var(--transition);
+}
+
+.result-card:hover {
+    box-shadow: var(--shadow-md);
+}
+
+.result-card__icon {
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(22, 163, 74, 0.08);
+    border-radius: var(--radius-md);
+    color: var(--color-primary);
+    margin-bottom: 16px;
+}
+
+.result-card__value {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--color-primary);
+    line-height: 1;
+    margin-bottom: 8px;
+    font-variant-numeric: tabular-nums;
+}
+
+.result-card__label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color-gray);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    .result-card {
+        padding: 32px 48px;
+        min-width: 160px;
+    }
+
+    .result-card__value {
+        font-size: 2.4rem;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .result-card {
+        padding: 28px 40px;
+        width: 100%;
+    }
+
+    .result-card__value {
+        font-size: 2rem;
+    }
+}

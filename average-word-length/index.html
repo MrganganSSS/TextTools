@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>Average Word Length - Free Online Text Analysis Tool | TextTools</title>
+    <meta name="description" content="Calculate the average word length of your text with our free online tool.">
+    <meta name="keywords" content="average word length, word length calculator, readability tool, text analysis, character count">
+    <meta name="author" content="TextTools">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.texttools.com/average-word-length/">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Average Word Length Calculator - Free Online Text Tool | TextTools">
+    <meta property="og:description" content="Free online average word length calculator. Find out the average character length of words in your text.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.texttools.com/average-word-length/">
+    <meta property="og:image" content="https://www.texttools.com/og-image.png">
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Average Word Length Calculator - Free Online Text Tool | TextTools">
+    <meta name="twitter:description" content="Free online average word length calculator. Find out the average character length of words in your text.">
+    <meta name="twitter:image" content="https://www.texttools.com/twitter-image.png">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="style.css">
+        <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Average Word Length",
+    "description": "Calculate the average word length of your text with our free online tool.",
+    "url": "https://www.texttools.com/average-word-length/",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "All",
+    "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+    }
+}
+        </script>
+    </head>
+<body>
+
+    <!-- ==================== HEADER ==================== -->
+    <header class="header" id="header">
+        <nav class="nav container" aria-label="Main navigation">
+            <a href="../index.html" class="nav__logo">Text<span class="nav__logo--accent">Tools</span></a>
+
+            <ul class="nav__menu" id="nav-menu" role="menubar">
+                <li class="nav__item" role="none">
+                    <a href="../index.html" class="nav__link" role="menuitem">Home</a>
+                </li>
+                <li class="nav__item" role="none">
+                    <a href="../tools_display.html" class="nav__link nav__link--active" role="menuitem">Text Tools</a>
+                </li>
+                <li class="nav__item" role="none">
+                    <a href="../index.html#about" class="nav__link" role="menuitem">About</a>
+                </li>
+                <li class="nav__item" role="none">
+                    <a href="../index.html#footer" class="nav__link" role="menuitem">Contact</a>
+                </li>
+                <li class="nav__item" role="none">
+                    <a href="../privacy-policy/index.html" class="nav__link" role="menuitem">Privacy Policy</a>
+                </li>
+                <li class="nav__item" role="none">
+                    <a href="../terms-of-service/index.html" class="nav__link" role="menuitem">Terms of Service</a>
+                </li>
+            </ul>
+
+            <a href="../tools_display.html" class="btn btn--primary nav__cta">Explore Tools</a>
+
+            <button
+                class="nav__hamburger"
+                id="nav-hamburger"
+                aria-label="Toggle navigation menu"
+                aria-expanded="false"
+                aria-controls="nav-menu"
+            >
+                <span class="nav__hamburger-line"></span>
+                <span class="nav__hamburger-line"></span>
+                <span class="nav__hamburger-line"></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- ==================== MAIN CONTENT ==================== -->
+    <main>
+
+        <!-- ==================== TOOL HERO ==================== -->
+        <section class="tool-hero">
+            <div class="container">
+                <nav class="breadcrumb" aria-label="Breadcrumb">
+                                    <a href="../index.html" class="breadcrumb__link">Home</a>
+                                    <span class="breadcrumb__sep">/</span>
+                                    <a href="../tools_display.html" class="breadcrumb__link">Text Tools</a>
+                                    <span class="breadcrumb__sep">/</span>
+                                    <span class="breadcrumb__current" aria-current="page">Average Word Length</span>
+                                </nav>
+                <a href="../tools_display.html" class="tool-hero__back">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                    All Tools
+                </a>
+                <h1 class="tool-hero__title">Average Word Length</h1>
+                <p class="tool-hero__desc">Calculate the average character length of words in your text for readability analysis.</p>
+            </div>
+        </section>
+
+        <!-- ==================== TOOL AREA ==================== -->
+        <section class="tool-area">
+            <div class="container">
+
+                <div class="tool-area__input">
+                    <label for="text-input" class="tool-area__label">Your Text</label>
+                    <textarea
+                        id="text-input"
+                        class="tool-area__textarea"
+                        placeholder="Paste or type your text here to calculate average word length..."
+                        aria-label="Text input for average word length calculation"
+                        rows="12"
+                    ></textarea>
+                    <div class="tool-area__actions">
+                        <button class="btn btn--outline" id="clear-btn" type="button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <line x1="18" y1="6" x2="6" y2="18"></line>
+                                <line x1="6" y1="6" x2="18" y2="18"></line>
+                            </svg>
+                            Clear
+                        </button>
+                    </div>
+                </div>
+
+                <div class="tool-area__output">
+                    <div class="result-card" aria-live="polite">
+                        <div class="result-card__icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
+                                <path d="M22 12A10 10 0 0 0 12 2v10z"></path>
+                                <line x1="12" y1="12" x2="18" y2="12"></line>
+                                <line x1="15" y1="12" x2="18" y2="12"></line>
+                            </svg>
+                        </div>
+                        <div class="result-card__value" id="avg-length">0 chars</div>
+                        <div class="result-card__label">Average Word Length</div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="tool-intro">
+
+            <div class="container">
+                <div class="tool-intro__content fade-in">
+                    <h2 class="tool-intro__title">About This Tool</h2>
+                    <p class="tool-intro__text">Our Average Word Length tool calculates the mean length of all words in your text. Useful for linguistic analysis, readability studies, and writing style evaluation. Paste your text to instantly see the average word length in characters.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="tool-features">
+            <div class="container">
+                <div class="tool-features__grid">
+                    <div class="tool-features__card fade-in">
+                        <div class="tool-features__icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div>
+                        <div class="tool-features__card-title">Instant Calculation</div>
+                        <p class="tool-features__card-desc">Average word length is computed the moment text is entered.</p>
+                    </div>
+<div class="tool-features__card fade-in">
+                        <div class="tool-features__icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div>
+                        <div class="tool-features__card-title">Precise Results</div>
+                        <p class="tool-features__card-desc">Calculates the exact average based on all words in your text.</p>
+                    </div>
+<div class="tool-features__card fade-in">
+                        <div class="tool-features__icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div>
+                        <div class="tool-features__card-title">Fully Private</div>
+                        <p class="tool-features__card-desc">No data is sent anywhere. Processing happens in your browser.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="tool-how-to">
+            <div class="container">
+                <h2 class="tool-how-to__title">How to Use</h2>
+                <div class="tool-how-to__steps">
+                    <div class="tool-how-to__step fade-in">
+                        <div class="tool-how-to__step-num">1</div>
+                        <div class="tool-how-to__step-text">Paste or type your text into the input field above.</div>
+                    </div>
+<div class="tool-how-to__step fade-in">
+                        <div class="tool-how-to__step-num">2</div>
+                        <div class="tool-how-to__step-text">The average word length in characters is displayed instantly.</div>
+                    </div>
+<div class="tool-how-to__step fade-in">
+                        <div class="tool-how-to__step-num">3</div>
+                        <div class="tool-how-to__step-text">Click <strong>Clear</strong> to reset and analyze new text.</div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="tool-use-cases">
+            <div class="container">
+                <h2 class="tool-use-cases__title">Use Cases</h2>
+                <div class="tool-use-cases__grid">
+                    <div class="tool-use-cases__item fade-in">
+                        <div class="tool-use-cases__icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg></div>
+                        <div class="tool-use-cases__text">Linguistic analysis</div>
+                    </div>
+<div class="tool-use-cases__item fade-in">
+                        <div class="tool-use-cases__icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg></div>
+                        <div class="tool-use-cases__text">Writing style evaluation</div>
+                    </div>
+<div class="tool-use-cases__item fade-in">
+                        <div class="tool-use-cases__icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg></div>
+                        <div class="tool-use-cases__text">Readability studies</div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="tool-faq">
+            <div class="container">
+                <h2 class="tool-faq__title">Frequently Asked Questions</h2>
+                <div class="tool-faq__list">
+                    <div class="tool-faq__item fade-in">
+                        <button class="tool-faq__question" type="button" aria-expanded="false">
+                            <span>How is average word length calculated?</span>
+                            <span class="tool-faq__icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+                        </button>
+                        <div class="tool-faq__answer" role="region">
+                            <div class="tool-faq__answer-inner">The tool divides the total number of characters in all words by the total number of words.</div>
+                        </div>
+                    </div>
+<div class="tool-faq__item fade-in">
+                        <button class="tool-faq__question" type="button" aria-expanded="false">
+                            <span>Are spaces included?</span>
+                            <span class="tool-faq__icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+                        </button>
+                        <div class="tool-faq__answer" role="region">
+                            <div class="tool-faq__answer-inner">No. Only the characters within each word are counted, not the spaces between them.</div>
+                        </div>
+                    </div>
+<div class="tool-faq__item fade-in">
+                        <button class="tool-faq__question" type="button" aria-expanded="false">
+                            <span>What's a typical average word length?</span>
+                            <span class="tool-faq__icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+                        </button>
+                        <div class="tool-faq__answer" role="region">
+                            <div class="tool-faq__answer-inner">English text typically averages 4-6 characters per word. Shorter averages indicate simpler vocabulary.</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="tool-related">
+            <div class="container">
+                <h2 class="tool-related__title">Related Tools</h2>
+                <div class="tool-related__grid">
+                    <div class="tool-related__card fade-in">
+                        <div class="tool-related__card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg></div>
+                        <div class="tool-related__card-title">Longest Word Finder</div>
+                        <p class="tool-related__card-desc">Find the longest word in your text with our free online longest word finder tool.</p>
+                        <a href="../longest-word-finder/" class="btn btn--outline">Try It</a>
+                    </div>
+<div class="tool-related__card fade-in">
+                        <div class="tool-related__card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg></div>
+                        <div class="tool-related__card-title">Shortest Word Finder</div>
+                        <p class="tool-related__card-desc">Find the shortest word in your text with our free online shortest word finder tool.</p>
+                        <a href="../shortest-word-finder/" class="btn btn--outline">Try It</a>
+                    </div>
+<div class="tool-related__card fade-in">
+                        <div class="tool-related__card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg></div>
+                        <div class="tool-related__card-title">Text Statistics</div>
+                        <p class="tool-related__card-desc">Get comprehensive text statistics including word count, character count, sentences, and more.</p>
+                        <a href="../text-statistics/" class="btn btn--outline">Try It</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="tool-tips">
+            <div class="container">
+                <h2 class="tool-tips__title">Tips & Best Practices</h2>
+                <div class="tool-tips__list">
+                    <div class="tool-tips__item fade-in">
+                        <div class="tool-tips__item-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
+                        <div class="tool-tips__item-text"><strong>Tip:</strong> Lower average word lengths generally indicate easier-to-read content.</div>
+                    </div>
+<div class="tool-tips__item fade-in">
+                        <div class="tool-tips__item-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
+                        <div class="tool-tips__item-text"><strong>Pro:</strong> Use this alongside the Longest Word Finder to identify outliers.</div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="tool-cta">
+            <div class="container">
+                <h2 class="tool-cta__title">Ready to Use the Average Word Length?</h2>
+                <p class="tool-cta__desc">It's fast, free, and works entirely in your browser. No sign-up required.</p>
+                <a href="#tool-area" class="btn--white">Try Average Word Length Now</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer" id="footer">
+        <div class="container footer__grid">
+
+            <div class="footer__brand">
+                <a href="../index.html" class="footer__logo">Text<span class="footer__logo--accent">Tools</span></a>
+                <p class="footer__brand-desc">Free online text tools for writers, students, developers, and content creators.</p>
+            </div>
+
+            <div class="footer__links">
+                <h4 class="footer__heading">Quick Links</h4>
+                <ul class="footer__list">
+                    <li><a href="../index.html" class="footer__link">Home</a></li>
+                    <li><a href="../tools_display.html" class="footer__link">Text Tools</a></li>
+                    <li><a href="../index.html#about" class="footer__link">About</a></li>
+                    <li><a href="../index.html#footer" class="footer__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__links">
+                <h4 class="footer__heading">Legal</h4>
+                <ul class="footer__list">
+                    <li><a href="../privacy-policy/index.html" class="footer__link">Privacy Policy</a></li>
+                    <li><a href="../terms-of-service/index.html" class="footer__link">Terms of Service</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer__bottom">
+            <p class="footer__copyright">&copy; 2026 TextTools. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- ==================== SCROLL TO TOP ==================== -->
+    <button
+        class="scroll-top"
+        id="scroll-top"
+        aria-label="Scroll to top"
+        title="Scroll to top"
+    >
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+
+    <!-- Scripts -->
+    <script src="../scripts/scripts.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

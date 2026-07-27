@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>TextTools - Free Online Text Tools</title>
+    <meta name="description" content="TextTools offers free online text tools for writers, students, and developers. Edit, analyze, convert, and generate text directly in your browser.">
+    <meta name="keywords" content="text tools, online tools, word counter, text converter, password generator, free tools">
+    <meta name="author" content="TextTools">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.texttools.com/">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="TextTools - Free Online Text Tools">
+    <meta property="og:description" content="Free online text tools for writers, students, and developers. Edit, analyze, convert, and generate text directly in your browser.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.texttools.com/">
+    <meta property="og:image" content="https://www.texttools.com/og-image.png">
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="TextTools - Free Online Text Tools">
+    <meta name="twitter:description" content="Free online text tools for writers, students, and developers. Edit, analyze, convert, and generate text directly in your browser.">
+    <meta name="twitter:image" content="https://www.texttools.com/twitter-image.png">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+    <!-- ==================== HEADER ==================== -->
+    <header class="header" id="header">
+        <nav class="nav container" aria-label="Main navigation">
+            <a href="#hero" class="nav__logo">Text<span class="nav__logo--accent">Tools</span></a>
+
+            <ul class="nav__menu" id="nav-menu" role="menubar">
+                <li class="nav__item" role="none">
+                    <a href="#hero" class="nav__link nav__link--active" role="menuitem">Home</a>
+                </li>
+                <li class="nav__item" role="none">
+                    <a href="tools_display.html" class="nav__link" role="menuitem">Text Tools</a>
+                </li>
+                <li class="nav__item" role="none">
+                    <a href="#about" class="nav__link" role="menuitem">About</a>
+                </li>
+                <li class="nav__item" role="none">
+                    <a href="#footer" class="nav__link" role="menuitem">Contact</a>
+                </li>
+                <li class="nav__item" role="none">
+                    <a href="privacy-policy/index.html" class="nav__link" role="menuitem">Privacy Policy</a>
+                </li>
+                <li class="nav__item" role="none">
+                    <a href="terms-of-service/index.html" class="nav__link" role="menuitem">Terms of Service</a>
+                </li>
+            </ul>
+
+            <a href="tools_display.html" class="btn btn--primary nav__cta">Explore Tools</a>
+
+            <button
+                class="nav__hamburger"
+                id="nav-hamburger"
+                aria-label="Toggle navigation menu"
+                aria-expanded="false"
+                aria-controls="nav-menu"
+            >
+                <span class="nav__hamburger-line"></span>
+                <span class="nav__hamburger-line"></span>
+                <span class="nav__hamburger-line"></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- ==================== MAIN CONTENT ==================== -->
+    <main>
+
+        <!-- ==================== HERO SECTION ==================== -->
+        <section class="hero" id="hero">
+            <div class="container hero__content">
+                <h1 class="hero__title">Free Online Text Tools</h1>
+                <p class="hero__subtitle">
+                    Edit, analyze, convert, and generate text online for free.
+                    Powerful tools that work directly in your browser — no installation required.
+                </p>
+
+                <div class="hero__actions">
+                    <a href="tools_display.html" class="btn btn--primary btn--lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+                        Browse All Tools
+                    </a>
+                    <a href="#categories" class="btn btn--outline btn--lg">
+                        Explore Categories
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ==================== STATS BAR ==================== -->
+        <section class="stats" id="stats">
+            <div class="container">
+                <div class="stats__grid">
+                    <div class="stats__item">
+                        <span class="stats__number">55</span>
+                        <span class="stats__label">Free Tools</span>
+                    </div>
+                    <div class="stats__divider" aria-hidden="true"></div>
+                    <div class="stats__item">
+                        <span class="stats__number">6</span>
+                        <span class="stats__label">Categories</span>
+                    </div>
+                    <div class="stats__divider" aria-hidden="true"></div>
+                    <div class="stats__item">
+                        <span class="stats__number">100%</span>
+                        <span class="stats__label">Free Forever</span>
+                    </div>
+                    <div class="stats__divider" aria-hidden="true"></div>
+                    <div class="stats__item">
+                        <span class="stats__number">0</span>
+                        <span class="stats__label">Sign-ups Required</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== FEATURED CATEGORIES ==================== -->
+        <section class="categories" id="categories">
+            <div class="container">
+                <h2 class="section-title">Featured Categories</h2>
+                <p class="section-subtitle">Browse our collection of text tools organized by category</p>
+
+                <div class="categories__grid">
+                    <a href="tools_display.html" class="category-card fade-in" aria-label="Text Analysis tools">
+                        <div class="category-card__icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                        </div>
+                        <h3 class="category-card__title">Text Analysis</h3>
+                        <p class="category-card__desc">Count words, characters, sentences, and paragraphs in any text</p>
+                    </a>
+
+                    <a href="tools_display.html" class="category-card fade-in" aria-label="Text Conversion tools">
+                        <div class="category-card__icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 3 21 3 21 8"></polyline><line x1="4" y1="20" x2="21" y2="3"></line><polyline points="21 16 21 21 16 21"></polyline><line x1="15" y1="15" x2="21" y2="21"></line></svg>
+                        </div>
+                        <h3 class="category-card__title">Text Conversion</h3>
+                        <p class="category-card__desc">Convert text between uppercase, lowercase, title case, and more</p>
+                    </a>
+
+                    <a href="tools_display.html" class="category-card fade-in" aria-label="Text Cleanup tools">
+                        <div class="category-card__icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.375 2.625a2.121 2.121 0 1 1 3 3L12 15l-4 1 1-4Z"></path></svg>
+                        </div>
+                        <h3 class="category-card__title">Text Cleanup</h3>
+                        <p class="category-card__desc">Remove extra spaces, empty lines, duplicates, and clean up text</p>
+                    </a>
+
+                    <a href="tools_display.html" class="category-card fade-in" aria-label="Text Extraction tools">
+                        <div class="category-card__icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                        </div>
+                        <h3 class="category-card__title">Text Extraction</h3>
+                        <p class="category-card__desc">Extract emails, URLs, phone numbers, hashtags, and more from text</p>
+                    </a>
+
+                    <a href="tools_display.html" class="category-card fade-in" aria-label="Text Formatting tools">
+                        <div class="category-card__icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="21" y1="10" x2="3" y2="10"></line><line x1="21" y1="6" x2="3" y2="6"></line><line x1="21" y1="14" x2="3" y2="14"></line><line x1="21" y1="18" x2="3" y2="18"></line></svg>
+                        </div>
+                        <h3 class="category-card__title">Text Formatting</h3>
+                        <p class="category-card__desc">Wrap, indent, align, and format text for any use case</p>
+                    </a>
+
+                    <a href="tools_display.html" class="category-card fade-in" aria-label="Find and Replace tools">
+                        <div class="category-card__icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="17 1 21 5 17 9"></polyline><path d="M3 11V9a4 4 0 0 1 4-4h14"></path><polyline points="7 23 3 19 7 15"></polyline><path d="M21 13v2a4 4 0 0 1-4 4H3"></path></svg>
+                        </div>
+                        <h3 class="category-card__title">Find & Replace</h3>
+                        <p class="category-card__desc">Search, find, and replace text with precision and ease</p>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== POPULAR TOOLS ==================== -->
+        <section class="popular-tools" id="popular-tools">
+            <div class="container">
+                <h2 class="section-title">Popular Tools</h2>
+                <p class="section-subtitle">The most used text tools, ready to go</p>
+
+                <div class="tools__grid">
+
+                    <article class="tool-card fade-in">
+                        <div class="tool-card__icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+                        </div>
+                        <h3 class="tool-card__title">Word Counter</h3>
+                        <p class="tool-card__desc">Count words, characters, and sentences in your text instantly.</p>
+                        <a href="word-counter/index.html" class="btn btn--outline tool-card__btn">Open Tool</a>
+                    </article>
+
+                    <article class="tool-card fade-in">
+                        <div class="tool-card__icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 7 4 4 20 4 20 7"></polyline><line x1="9" y1="20" x2="15" y2="20"></line><line x1="12" y1="4" x2="12" y2="20"></line></svg>
+                        </div>
+                        <h3 class="tool-card__title">Character Counter</h3>
+                        <p class="tool-card__desc">Count characters with and without spaces easily.</p>
+                        <a href="character-counter/index.html" class="btn btn--outline tool-card__btn">Open Tool</a>
+                    </article>
+
+                    <article class="tool-card fade-in">
+                        <div class="tool-card__icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"></path><circle cx="6" cy="18" r="3"></circle><circle cx="18" cy="16" r="3"></circle></svg>
+                        </div>
+                        <h3 class="tool-card__title">Sentence Counter</h3>
+                        <p class="tool-card__desc">Count the number of sentences in any text.</p>
+                        <a href="sentence-counter/index.html" class="btn btn--outline tool-card__btn">Open Tool</a>
+                    </article>
+
+                    <article class="tool-card fade-in">
+                        <div class="tool-card__icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="17 1 21 5 17 9"></polyline><path d="M3 11V9a4 4 0 0 1 4-4h14"></path><polyline points="7 23 3 19 7 15"></polyline><path d="M21 13v2a4 4 0 0 1-4 4H3"></path></svg>
+                        </div>
+                        <h3 class="tool-card__title">Uppercase Converter</h3>
+                        <p class="tool-card__desc">Convert all text to uppercase with one click.</p>
+                        <a href="uppercase-converter/index.html" class="btn btn--outline tool-card__btn">Open Tool</a>
+                    </article>
+
+                    <article class="tool-card fade-in">
+                        <div class="tool-card__icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="7 15 3 19 7 23"></polyline><path d="M21 13v2a4 4 0 0 1-4 4H3"></path><polyline points="17 1 21 5 17 9"></polyline><path d="M3 11V9a4 4 0 0 1 4-4h14"></path></svg>
+                        </div>
+                        <h3 class="tool-card__title">Lowercase Converter</h3>
+                        <p class="tool-card__desc">Convert all text to lowercase instantly.</p>
+                        <a href="lowercase-converter/index.html" class="btn btn--outline tool-card__btn">Open Tool</a>
+                    </article>
+
+                    <article class="tool-card fade-in">
+                        <div class="tool-card__icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+                        </div>
+                        <h3 class="tool-card__title">Capitalize Text</h3>
+                        <p class="tool-card__desc">Capitalize the first letter of every word.</p>
+                        <a href="capitalize-text/index.html" class="btn btn--outline tool-card__btn">Open Tool</a>
+                    </article>
+
+                    <article class="tool-card fade-in">
+                        <div class="tool-card__icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"></polyline><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path></svg>
+                        </div>
+                        <h3 class="tool-card__title">Reverse Text</h3>
+                        <p class="tool-card__desc">Reverse the order of characters or words.</p>
+                        <a href="reverse-text/index.html" class="btn btn--outline tool-card__btn">Open Tool</a>
+                    </article>
+
+                    <article class="tool-card fade-in">
+                        <div class="tool-card__icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12H3"></path><path d="M21 6H3"></path><path d="M21 18H3"></path></svg>
+                        </div>
+                        <h3 class="tool-card__title">Remove Extra Spaces</h3>
+                        <p class="tool-card__desc">Trim and normalize all extra whitespace.</p>
+                        <a href="remove-extra-spaces/index.html" class="btn btn--outline tool-card__btn">Open Tool</a>
+                    </article>
+
+                    <article class="tool-card fade-in">
+                        <div class="tool-card__icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg>
+                        </div>
+                        <h3 class="tool-card__title">Remove Empty Lines</h3>
+                        <p class="tool-card__desc">Remove all blank lines from your text.</p>
+                        <a href="remove-empty-lines/index.html" class="btn btn--outline tool-card__btn">Open Tool</a>
+                    </article>
+
+                    <article class="tool-card fade-in">
+                        <div class="tool-card__icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect><line x1="9" y1="12" x2="15" y2="12"></line></svg>
+                        </div>
+                        <h3 class="tool-card__title">Remove Duplicate Lines</h3>
+                        <p class="tool-card__desc">Remove duplicate lines and keep unique entries.</p>
+                        <a href="remove-duplicate-lines/index.html" class="btn btn--outline tool-card__btn">Open Tool</a>
+                    </article>
+
+                </div>
+
+                <div class="popular-tools__cta">
+                    <a href="tools_display.html" class="btn btn--primary btn--lg">
+                        View All 55 Tools
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== WHY CHOOSE US ==================== -->
+        <section class="why-us" id="why-us">
+            <div class="container">
+                <h2 class="section-title">Why Choose TextTools</h2>
+                <p class="section-subtitle">Built for speed, simplicity, and your privacy</p>
+
+                <div class="why-us__grid">
+                    <div class="why-us__card fade-in">
+                        <div class="why-us__card-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                        </div>
+                        <h3 class="why-us__card-title">Fast</h3>
+                        <p class="why-us__card-desc">Works entirely in your browser — no waiting for server processing.</p>
+                    </div>
+
+                    <div class="why-us__card fade-in">
+                        <div class="why-us__card-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="16"></line><line x1="8" y1="12" x2="16" y2="12"></line></svg>
+                        </div>
+                        <h3 class="why-us__card-title">Free Forever</h3>
+                        <p class="why-us__card-desc">No installation, no subscriptions, no hidden fees.</p>
+                    </div>
+
+                    <div class="why-us__card fade-in">
+                        <div class="why-us__card-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                        </div>
+                        <h3 class="why-us__card-title">Privacy First</h3>
+                        <p class="why-us__card-desc">No uploaded text is ever stored or transmitted anywhere.</p>
+                    </div>
+
+                    <div class="why-us__card fade-in">
+                        <div class="why-us__card-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+                        </div>
+                        <h3 class="why-us__card-title">Easy to Use</h3>
+                        <p class="why-us__card-desc">Simple and intuitive — paste your text and get results.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== ABOUT SECTION ==================== -->
+        <section class="about" id="about">
+            <div class="container about__content">
+                <div class="about__text">
+                    <h2 class="section-title">About TextTools</h2>
+                    <p class="about__description">
+                        TextTools is a collection of free online text tools designed for writers, students,
+                        developers, translators, and content creators. Everything works directly inside
+                        your browser — no registration required.
+                    </p>
+                </div>
+
+                <div class="about__features">
+                    <div class="about__feature">
+                        <div class="about__feature-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                        </div>
+                        <div>
+                            <h4 class="about__feature-title">Lightning Fast</h4>
+                            <p class="about__feature-desc">All processing happens instantly in your browser. No uploads, no waiting.</p>
+                        </div>
+                    </div>
+
+                    <div class="about__feature">
+                        <div class="about__feature-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                        </div>
+                        <div>
+                            <h4 class="about__feature-title">Complete Privacy</h4>
+                            <p class="about__feature-desc">Your text never leaves your device. Zero data collection, zero tracking.</p>
+                        </div>
+                    </div>
+
+                    <div class="about__feature">
+                        <div class="about__feature-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                        </div>
+                        <div>
+                            <h4 class="about__feature-title">Works Everywhere</h4>
+                            <p class="about__feature-desc">Use on any device, any browser. No downloads or installs needed.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer" id="footer">
+        <div class="container footer__grid">
+
+            <div class="footer__brand">
+                <a href="index.html" class="footer__logo">Text<span class="footer__logo--accent">Tools</span></a>
+                <p class="footer__brand-desc">Free online text tools for writers, students, developers, and content creators.</p>
+            </div>
+
+            <div class="footer__links">
+                <h4 class="footer__heading">Quick Links</h4>
+                <ul class="footer__list">
+                    <li><a href="index.html" class="footer__link">Home</a></li>
+                    <li><a href="tools_display.html" class="footer__link">Text Tools</a></li>
+                    <li><a href="index.html#about" class="footer__link">About</a></li>
+                    <li><a href="index.html#footer" class="footer__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__links">
+                <h4 class="footer__heading">Legal</h4>
+                <ul class="footer__list">
+                    <li><a href="privacy-policy/index.html" class="footer__link">Privacy Policy</a></li>
+                    <li><a href="terms-of-service/index.html" class="footer__link">Terms of Service</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer__bottom">
+            <p class="footer__copyright">&copy; 2026 TextTools. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- ==================== SCROLL TO TOP ==================== -->
+    <button
+        class="scroll-top"
+        id="scroll-top"
+        aria-label="Scroll to top"
+        title="Scroll to top"
+    >
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+
+    <!-- Scripts -->
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
